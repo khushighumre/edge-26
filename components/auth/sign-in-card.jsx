@@ -85,7 +85,7 @@ const SignInCard = ({ setState }) => {
             Register new Admin:{" "}
             <span
               onClick={() => setIsAdmin(true)}
-              className="text-blue-500 cursor-pointer"
+              className="text-primary cursor-pointer"
             >
               Click here
             </span>

@@ -66,7 +66,7 @@ const VideoPlayer = ({ videoSrc }) => {
         <div className="absolute inset-0 flex items-center justify-center z-50">
           <button
             onClick={togglePlayPause}
-            className="p-2 rounded-full cursor-pointer z-99 bg-slate-300/40"
+            className="p-2 rounded-full cursor-pointer z-99 bg-red-700/40"
           >
             {!isPlaying ? <Play /> : <Pause />}
           </button>
@@ -80,7 +80,7 @@ const VideoPlayer = ({ videoSrc }) => {
             value={progress}
             max="100"
             onChange={handleSliderChange}
-            className="w-full h-1 bg-gray-400 rounded-lg cursor-pointer"
+            className="w-full h-1 bg-primary/60 rounded-lg cursor-pointer"
           />
         </div>
       )}

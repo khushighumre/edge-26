@@ -42,11 +42,11 @@ export const TextHoverEffect = ({ text, duration }) => {
         >
           {hovered && (
             <>
-              <stop offset="0%" stopColor={"var(--indigo-500)"} />
-              <stop offset="25%" stopColor={"var(--violet-500)"} />
-              <stop offset="50%" stopColor={"var(--purple-500)"} />
-              <stop offset="75%" stopColor={"var(--fuchsia-500)"} />
-              <stop offset="100%" stopColor={"var(--rose-500)"} />
+              <stop offset="0%" stopColor={"#A1202A"} />
+              <stop offset="25%" stopColor={"#C9A876"} />
+              <stop offset="50%" stopColor={"#A1202A"} />
+              <stop offset="75%" stopColor={"#C9A876"} />
+              <stop offset="100%" stopColor={"#A1202A"} />
             </>
           )}
         </linearGradient>

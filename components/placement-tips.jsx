@@ -25,28 +25,28 @@ export default function PlacementTips() {
       title: "Code Daily, Win Big!",
       description: "Master DSA & core CS subjects; consistency is key.",
       icon: <Code className="h-6 w-6" />,
-      color: "bg-blue-500/10 text-blue-500",
+      color: "bg-primary/10 text-primary",
     },
     {
       id: 2,
       title: "Projects Speak Louder!",
       description: "Build real-world projects to stand out from the crowd.",
       icon: <Briefcase className="h-6 w-6" />,
-      color: "bg-green-500/10 text-green-500",
+      color: "bg-secondary/10 text-secondary",
     },
     {
       id: 3,
       title: "Mock It Till You Rock It!",
       description: "Practice interviews to boost confidence & performance.",
       icon: <UserCheck className="h-6 w-6" />,
-      color: "bg-purple-500/10 text-purple-500",
+      color: "bg-accent/10 text-accent",
     },
     {
       id: 4,
       title: "LinkedIn = Your Digital Resume!",
       description: "Optimize it, network smartly & seek referrals.",
       icon: <Linkedin className="h-6 w-6" />,
-      color: "bg-blue-600/10 text-blue-600",
+      color: "bg-primary/10 text-primary",
     },
     {
       id: 5,
@@ -101,7 +101,7 @@ export default function PlacementTips() {
         />
 
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-          <span className="bg-clip-text text-transparent bg-[conic-gradient(from_45deg_at_50%_50%,#6d28d9_0%,#d8b4fe_50%,#6d28d9_100%)]">
+          <span className="bg-clip-text text-transparent bg-[conic-gradient(from_45deg_at_50%_50%,#A1202A_0%,#C9A876_50%,#A1202A_100%)]">
             Smart Placement Tips
           </span>
         </h1>

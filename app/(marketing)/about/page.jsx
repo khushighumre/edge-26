@@ -97,7 +97,8 @@ const AboutPage = () => {
           <AnimationContainer delay={0.3} className="w-full">
             <div className="py-14">
               <div className="mx-auto px-4 md:px-8">
-                <h2 className="text-center text-sm font-medium font-heading text-neutral-400 uppercase">
+                {/* Updated text color to match palette */}
+                <h2 className="text-center text-sm font-medium font-heading text-muted-foreground uppercase">
                   Trusted by the best in the industry
                 </h2>
                 <div className="mt-8">
@@ -126,11 +127,12 @@ const AboutPage = () => {
               <h2 className="text-2xl md:text-3xl font-semibold font-heading mb-6">
                 Contact Our Team
               </h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 w-full">
+              <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-4">
                 {teamMembers.map((member) => (
                   <div
                     key={member.name}
-                    className=" px-2 py-6 bg-opacity-50 backdrop-blur-lg rounded-lg ring-1 ring-border/20 shadow-lg"
+                    // Updated background to use card variable with opacity for glass effect
+                    className="px-2 py-6 bg-card/30 backdrop-blur-lg rounded-lg ring-1 ring-border/40 shadow-lg"
                   >
                     <h3 className="text-xl font-medium">{member.name}</h3>
                     <p className="text-lg text-muted-foreground">

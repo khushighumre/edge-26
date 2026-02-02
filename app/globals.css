@@ -14,76 +14,94 @@ html {
 
 @layer base {
   :root {
-    --foreground: 0 0% 98%;
-    --background: 0 0% 3.9%;
+    /* DARK MODE (Default based on color palette) */
+    
+    /* Image Color: Black (Background) */
+    --background: 0 0% 8%; 
+    
+    /* Image Color: Cream (Text) */
+    --foreground: 36 28% 93%;
 
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
+    /* Image Color: Black (Card Background) */
+    --card: 0 0% 8%;
+    --card-foreground: 36 28% 93%;
 
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 36 28% 93%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
+    /* Image Color: Burgundy Red (Primary Actions) */
+    --primary: 356 67% 35%;
+    --primary-foreground: 36 28% 93%;
 
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
+    /* Image Color: Gold (Secondary/Accents) */
+    --secondary: 37 42% 54%;
+    --secondary-foreground: 0 0% 8%;
 
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 37 20% 68%;
 
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 37 42% 54%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 36 28% 93%;
 
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
+    /* Dark Gold for borders to blend better */
+    --border: 37 35% 20%;
+    --input: 37 35% 20%;
+    
+    /* Gold Ring for focus states */
+    --ring: 37 42% 54%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    /* LIGHT MODE (Inverted based on color palette) */
+    
+    /* Image Color: Cream (Background) */
+    --background: 36 28% 93%;
+    
+    /* Image Color: Black (Text) */
+    --foreground: 0 0% 8%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
+    --card: 36 28% 93%;
+    --card-foreground: 0 0% 8%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
+    --popover: 36 28% 93%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
+    /* Image Color: Burgundy Red */
+    --primary: 356 67% 35%;
+    --primary-foreground: 36 28% 93%;
 
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
+    /* Image Color: Gold */
+    --secondary: 37 42% 54%;
+    --secondary-foreground: 0 0% 8%;
 
-    --tertiary: 0 0% 90%;
-    --tertiary-foreground: 0 0% 9%;
+    --tertiary: 36 25% 88%;
+    --tertiary-foreground: 0 0% 8%;
 
-    --subtle: 240 6% 90%;
-    --subtle-foreground: 0 0% 9%;
+    --subtle: 36 25% 88%;
+    --subtle-foreground: 0 0% 8%;
 
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
+    --muted: 36 20% 85%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
+    --accent: 36 20% 85%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 36 28% 93%;
 
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
+    --border: 37 30% 78%;
+    --input: 37 30% 78%;
+    --ring: 356 67% 35%;
   }
 }
 
 ::selection {
-  background-color: rgba(168, 85, 247, 0.2);
+  background-color: hsl(37, 42%, 54%, 0.3); /* Gold selection */
   color: hsl(var(--foreground));
 }
 
@@ -95,16 +113,15 @@ body {
 .dumy {
   color: hsl(0 0% 98%);
   color: rgb(38, 38, 38);
-  /* @apply to-purple-500 */
 }
 
 ::-webkit-scrollbar {
   width: 6px;
-  scrollbar-color: #262626;
+  scrollbar-color: hsl(37, 35%, 25%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #262626;
+  background-color: hsl(37, 35%, 35%); /* Dark Gold scrollbar */
   border-radius: 3px;
 }
 
@@ -112,18 +129,19 @@ body {
   background: rgba(0, 0, 0, 0);
 }
 
+/* Updated gradient using the Red/Gold/Black tones */
 .gradient {
   background: conic-gradient(
     from 230.29deg at 51.63% 52.16%,
-    rgb(36, 0, 255) 0deg,
-    rgb(0, 135, 255) 67.5deg,
-    rgb(108, 39, 157) 198.75deg,
-    rgb(24, 38, 163) 251.25deg,
-    rgb(54, 103, 196) 301.88deg,
-    rgb(105, 30, 255) 360deg
+    hsl(356, 67%, 35%) 0deg,      /* Burgundy Red */
+    hsl(37, 42%, 54%) 67.5deg,    /* Gold */
+    hsl(0, 0%, 8%) 198.75deg,     /* Black */
+    hsl(356, 60%, 25%) 251.25deg, /* Dark Burgundy */
+    hsl(37, 35%, 40%) 301.88deg,  /* Dark Gold */
+    hsl(356, 67%, 35%) 360deg     /* Burgundy Red */
   );
 }
 
 .not-found {
-  box-shadow: rgba(150, 18, 226, 0.3) 5px 5px;
+  box-shadow: rgba(198, 161, 118, 0.3) 5px 5px; /* Gold Shadow */
 }

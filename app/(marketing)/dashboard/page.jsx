@@ -68,7 +68,7 @@ const DashboardPage = () => {
               <MagicBadge title="Profile" />
               <h1 className="text-lg font-medium">Welcome</h1>
               <h1 className="text-2xl font-medium">{user?.name || "User"}</h1>
-              <p className="text-gray-500 mt-2">
+              <p className="text-muted-foreground mt-2">
                 Your goodies as per our promise.
               </p>
 

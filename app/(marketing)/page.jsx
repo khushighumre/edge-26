@@ -33,7 +33,7 @@ const HomePage = () => {
             </button>
             <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-6xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
               Explore, Develop, Grow, Excel with{" "}
-              <span className="text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 bg-clip-text inline-bloc">
+              <span className="text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text inline-bloc">
                 EDGE 25
               </span>
             </h1>

@@ -8,24 +8,24 @@ export const generateEmailTemplate = ({ name, email, message }) => `
       body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
-        color: #333;
+        color: #262626;
         max-width: 600px;
         margin: 0 auto;
         padding: 20px;
-        background-color: #f4f4f4;
+        background-color: #f0ebe5;
       }
       .email-container {
-        background-color: #ffffff;
+        background-color: #faf9f7;
         border-radius: 8px;
         padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(161, 32, 42, 0.1);
+        border: 1px solid #d4ccc4;
       }
       .header {
         text-align: center;
         font-size: 20px;
         font-weight: bold;
-        color: #0073e6;
+        color: #A1202A;
         margin-bottom: 15px;
       }
       .details-table {
@@ -35,15 +35,15 @@ export const generateEmailTemplate = ({ name, email, message }) => `
       }
       .details-table td {
         padding: 10px;
-        border-bottom: 1px solid #eeeeee;
+        border-bottom: 1px solid #e8dfd7;
       }
       .details-table td:first-child {
         font-weight: bold;
-        color: #555;
+        color: #262626;
         width: 30%;
       }
       .message-box {
-        background-color: #f9f9f9;
+        background-color: #f5f0eb;
         padding: 15px;
         border-radius: 5px;
         margin-top: 10px;
@@ -52,8 +52,8 @@ export const generateEmailTemplate = ({ name, email, message }) => `
       .reply-button {
         width: 100%;
         text-align: center;
-        background-color: #0073e6;
-        color: white;
+        background-color: #A1202A;
+        color: #faf9f7;
         padding: 12px;
         text-decoration: none;
         font-size: 16px;
@@ -61,15 +61,15 @@ export const generateEmailTemplate = ({ name, email, message }) => `
         border-radius: 5px;
         margin-top: 20px;
         border: none;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 5px rgba(161, 32, 42, 0.2);
       }
       .reply-button:hover {
-        background-color: #005bb5;
+        background-color: #7d171f;
       }
       .footer {
         text-align: center;
         font-size: 12px;
-        color: #888;
+        color: #6b6b6b;
         margin-top: 20px;
       }
     </style>

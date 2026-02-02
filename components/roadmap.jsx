@@ -29,7 +29,7 @@ const Roadmap = () => {
       <h2 className="text-center text-3xl font-bold mb-8">Placement Roadmap</h2>
 
       {/* Vertical Line */}
-      <div className="absolute left-1/2 top-20 bottom-10 w-1 bg-gray-300 hidden md:block -translate-x-1/2"></div>
+      <div className="absolute left-1/2 top-20 bottom-10 w-1 bg-accent hidden md:block -translate-x-1/2"></div>
 
       <div className="space-y-10 relative z-10">
         {roadmapSteps.map((step, index) => (
@@ -50,13 +50,13 @@ const Roadmap = () => {
                 className="w-40 h-40 rounded-lg shadow-lg"
               />
               {/* Connector Circle */}
-              <div className="w-6 h-6 bg-blue-500 rounded-full absolute left-1/2 -top-3 -translate-x-1/2 border-4 border-white hidden md:block"></div>
+              <div className="w-6 h-6 bg-primary rounded-full absolute left-1/2 -top-3 -translate-x-1/2 border-4 border-background hidden md:block"></div>
             </div>
 
             {/* Step Details */}
-            <div className="text-center md:text-left bg-white p-4 shadow-md rounded-lg">
+            <div className="text-center md:text-left bg-card p-4 shadow-md rounded-lg">
               <h3 className="text-xl font-semibold">{step.title}</h3>
-              <p className="text-gray-600">{step.description}</p>
+              <p className="text-muted-foreground">{step.description}</p>
             </div>
           </motion.div>
         ))}
