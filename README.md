@@ -2,6 +2,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Clonig the repo
+
+```bash
+git clone https://github.com/khushighumre/edge-26
+cd edge-26
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
 First, run the development server:
 
 ```bash
