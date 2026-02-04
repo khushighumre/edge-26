@@ -1,26 +1,50 @@
 [
     {
+        "title": "The ATS-Proof Resume 📄",
+        "image": "/assets/resume.jpg",
+        "author_image": "https://example.com/images/author1.jpg",
+        "description": "Beat the Bot: If you don't fit the algorithm, you don't get the interview. Learn to build an ATS-compliant CV using the right keywords and metrics to ensure you actually pass the initial screening."
+    },
+    {
+        "title": "GD Survival Strategy 🗣️",
+        "image": "/assets/gd.jpg",
+        "author_image": "https://example.com/images/author2.jpg",
+        "description": "Logic Over Volume: Shouting isn't leadership. Learn to navigate chaotic discussions, structure your arguments logically, and handle aggressive peers without losing your cool."
+    },
+    {
+        "title": "The Art of the Interview 🎙️",
+        "image": "/assets/interview.jpg",
+        "author_image": "https://example.com/images/author3.jpg",
+        "description": "Beyond the Resume: Knowledge means nothing if you can't communicate it. Learn to answer tricky HR and situational questions with clarity, ensuring you sound like a professional, not a fresher."
+    },
+    {
+        "title": "LinkedIn & Cold Emailing 🔗",
+        "image": "/assets/linkedin.jpg",
+        "author_image": "https://example.com/images/author4.jpg",
+        "description": "The Hidden Job Market: Job portals are crowded. Learn to optimize your LinkedIn headline for recruiter searches and write cold emails that actually convert connections into referrals."
+    },
+    {
         "title": "Money Made Simple 💰",
         "image": "/assets/money.jpg",
-        "author_image": "https://example.com/images/author1.jpg",
-        "description": "Financial security starts with the right knowledge. Smart saving, budgeting, and investment strategies pave the way for long-term stability and growth."
+        "author_image": "https://example.com/images/author5.jpg",
+        "description": "Genesis of Wealth: Financial security isn't just about saving; it's about strategy. Master the art of smart budgeting and investment to build a stable foundation for your future growth."
     },
     {
         "title": "AI-Powered Productivity 🤖",
         "image": "/assets/ai.jpg",
-        "author_image": "https://example.com/images/author2.jpg",
-        "description": "AI is reshaping the way work gets done. Leveraging the right tools can simplify tasks, enhance efficiency, and unlock new levels of productivity."
+        "author_image": "https://example.com/images/author6.jpg",
+        "description": "Engineer Your Efficiency: The future belongs to those who leverage tech. Discover how to use AI tools to simplify complex tasks, automate workflows, and unlock a new level of professional productivity."
     },
     {
         "title": "From Profile to Placement 🔗",
         "image": "/assets/placement.jpg",
-        "author_image": "https://example.com/images/author3.jpg",
-        "description": "A compelling LinkedIn profile and well-crafted resume create strong professional impressions. The right approach increases visibility and attracts better career opportunities."
+        "author_image": "https://example.com/images/author7.jpg",
+        "description": "Digital First Impressions: Your resume and LinkedIn profile are your digital Genesis. Learn to craft a compelling professional narrative that increases visibility, attracts recruiters, and converts views into offers."
     },
     {
         "title": "Personal Branding 🚀",
         "image": "/assets/branding.avif",
-        "author_image": "https://example.com/images/author4.jpg",
-        "description": "A strong personal brand builds credibility and sets individuals apart in a competitive world. Authenticity and consistency play a key role in making a lasting impact."
+        "author_image": "https://example.com/images/author8.jpg",
+        "description": "Define Your Signature: In a competitive world, standing out is the only option. Learn to build an authentic personal brand that establishes credibility and sets you apart as a leader in your field."
     }
 ]
