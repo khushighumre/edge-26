@@ -3,8 +3,8 @@ import { ArrowRightIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const EventCountdown = () => {
-  const eventDate = new Date(2026, 2, 4, 10, 0, 0);
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const eventDate = new Date(2026, 1, 27, 10, 0, 0);
+  const [timeLeft, setTimeLeft] = useState(null);
 
   function calculateTimeLeft() {
     const now = new Date();
@@ -21,6 +21,7 @@ const EventCountdown = () => {
   }
 
   useEffect(() => {
+    setTimeLeft(calculateTimeLeft());
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
