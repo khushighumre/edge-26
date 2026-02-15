@@ -12,7 +12,8 @@ import speakers from "@/utils/constants/speakers.json";
 const SpeakerSessions = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-6xl mx-auto px-4 md:px-0">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-transparent bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 bg-clip-text">Comming Soon...</p>
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {speakers.map((speaker, id) => (
           <MagicCard key={id} className="p-0 md:p-0 relative w-80 sm:w-full">
             <Card className="group border-0 h-full">
@@ -36,15 +37,15 @@ const SpeakerSessions = () => {
                   </CardDescription>
                 </div>
               </CardContent>
-              {/* <CardFooter className="flex justify-evenly items-center w-full">
+              <CardFooter className="flex justify-evenly items-center w-full">
                 <Instagram className="cursor-pointer hover:scale-110 transition" />
                 <Linkedin className="cursor-pointer hover:scale-110 transition" />
                 <Twitter className="cursor-pointer hover:scale-110 transition" />
-              </CardFooter> */}
+              </CardFooter>
             </Card>
           </MagicCard>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
